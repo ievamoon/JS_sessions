@@ -1,1 +1,2 @@
 MyText Examples
+such example, very git, did fail
