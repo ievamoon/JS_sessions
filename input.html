@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans">
+</head>
+
+<body>
+    <form action="input.html" method="post">
+        <fieldset>
+            <legend>Personal data</legend>
+            <input name="Name" type="text" placeholder="Name">
+            <input name="LastName" type="text" placeholder="Surname">
+            <label for="checkboxId">This is the checkbox</label>
+            <input name="Checkbox" type="checkbox" id="checkboxId">
+            <label for="gender">Male</label><input id="Male" type="radio" name="gender">
+            <label for="gender">Female</label><input id="Female" type="radio" name="gender">
+            <br>
+            <select name="favcolour">
+                <option value="B">Black</option>
+                <option value="W">White</option>
+                <option value="O">Orange</option>
+                <option value="G">Green</option>
+                <option value="bl" disabled selected>Choose your colour</option>
+            </select>
+        </fieldset>
+        <button type="submit" class="save">Save</button>
+        <button type="reset" class="cancel">Cancel</button>
+
+    </form>
+    <div class="myRule">
+        <p>
+            here is one paragraph
+
+        </p>
+        <p>
+            here is another paragraph
+        </p>
+    </div>
+    <p>
+        another one
+    </p>
+
+</body>
+
+
+
+</html>

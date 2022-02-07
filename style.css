@@ -1,0 +1,24 @@
+body {
+    font-family: "Droid Sans", serif;
+}
+
+button {
+    color: rgb(223, 172, 206);
+    background-color: aquamarine;
+    font-size: larger;
+}
+
+.save {
+    background-color: rgb(94, 228, 123) !important;
+    color: darkgreen;
+}
+
+.cancel {
+    background-color: rgb(201, 103, 128);
+}
+
+.myRule {
+    font-size: larger;
+    font-weight: bold;
+    color: darkslategrey;
+}
