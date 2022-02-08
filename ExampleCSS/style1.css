@@ -1,0 +1,21 @@
+* {
+    background-color: blanchedalmond;
+}
+
+div {
+    margin: 7px;
+    height: 400px;
+    width: 100px;
+}
+
+.section1 {
+    overflow: auto;
+}
+
+.section2 {
+    overflow: hidden;
+}
+
+.section3 {
+    overflow: scroll;
+}
