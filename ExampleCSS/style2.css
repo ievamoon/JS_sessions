@@ -1,0 +1,42 @@
+p {
+    overflow: hidden;
+}
+
+div {
+    color: darkgreen;
+    background-color: gold;
+}
+
+.right {
+    width: 100px;
+    height: 100px;
+    float: right
+}
+
+.left {
+    width: 100px;
+    height: 100px;
+    float: left
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    background-color: aquamarine;
+}
+
+li {
+    float: right;
+    margin: 3px;
+    padding: 4px;
+    line-height: 30px;
+    background-color: aquamarine;
+}
+
+li a:active {
+    color: blue;
+}
+
+li a:hover {
+    color: antiquewhite
+}

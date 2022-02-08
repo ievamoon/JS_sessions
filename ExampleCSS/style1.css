@@ -2,10 +2,12 @@
     background-color: blanchedalmond;
 }
 
-div {
-    margin: 7px;
-    height: 400px;
-    width: 100px;
+@media (min-width: 400px) {
+    div {
+        margin: 5px 12px 8px 19px;
+        height: 400px;
+        width: 600px;
+    }
 }
 
 .section1 {
@@ -18,4 +20,14 @@ div {
 
 .section3 {
     overflow: scroll;
+}
+
+#save {
+    background-color: blueviolet;
+    color: azure;
+    size: 2cm;
+}
+
+#importantinfo {
+    color: crimson
 }
