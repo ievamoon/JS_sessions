@@ -5,8 +5,9 @@
 @media (min-width: 400px) {
     div {
         margin: 5px 12px 8px 19px;
-        height: 400px;
-        width: 600px;
+        height: 600px;
+        width: 800px;
+        text-align: center;
     }
 }
 
